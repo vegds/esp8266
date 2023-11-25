@@ -35,7 +35,7 @@ BlinkerButton mode("power");
 int LED_R = 0, LED_G = 0, LED_B = 0;  // RGB和亮度
 // !static short Bright[3] = { 1,2,3 };
 bool WIFI_Status;
-char hex_color;
+char* hex_color;
     
 //初始化ws2812
 void initws2812(){
@@ -43,9 +43,15 @@ void initws2812(){
   pixels.show();
 }
 
+char* rgbToHex(int red, int green, int blue) {
+  char hexValue[7];
+  sprintf(hexValue, "#%02X%02X%02X", red, green, blue);
+  return hexValue;
+}
+
 //设置灯的颜色
 void SetColor(int R, int G, int B) {
-hex_color=rgbToHex(R, G, B)
+hex_color=rgbToHex(R, G, B);
   for (uint16_t i = 0; i < NUMPIXELS; i++)  //把灯条变色
   {
     pixels.setPixelColor(i, R, G, B);
@@ -94,11 +100,6 @@ void drawProgressBar(int progress) {
 }
 
 
-char rgbToHex(int red, int green, int blue) {
-  char hexValue = new char[7];
-  sprintf(hexValue, "#%02X%02X%02X", red, green, blue);
-  return hexValue;
-}
 //灯的模式回调
 void mode_callback(const String& state)
 {
