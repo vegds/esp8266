@@ -25,17 +25,15 @@ bool buttonState = HIGH;
 #define NUMPIXELS 11         // Number of you led
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/U8X8_PIN_NONE); 
 /*blinker定义组件*/ 
 BlinkerRGB Color("Color");
 BlinkerSlider Slider1("bright");
 BlinkerButton mode("power");
 
-int LED_R = 0, LED_G = 0, LED_B = 0;  // RGB和亮度
-// !static short Bright[3] = { 1,2,3 };
+int LED_R = 0, LED_G = 0, LED_B = 0;  // RGB
 bool WIFI_Status;
-char* hex_color;
+char* hex_color="#000000";
     
 //初始化ws2812
 void initws2812(){
@@ -43,10 +41,10 @@ void initws2812(){
   pixels.show();
 }
 
-char* rgbToHex(int red, int green, int blue) {
-  char hexValue[7];
-  sprintf(hexValue, "#%02X%02X%02X", red, green, blue);
-  return hexValue;
+char* rgbToHex(uint8_t r, uint8_t g, uint8_t b) {
+  char* hex = new char[7];
+  sprintf(hex, "#%02X%02X%02X", r, g, b);
+  return hex;
 }
 
 //设置灯的颜色
@@ -94,7 +92,7 @@ void drawProgressBar(int progress) {
   u8g2.drawFrame(startX, startY, width, height); // 绘制进度条边框
   u8g2.drawUTF8(40, startY+22, "正在启动");
   u8g2.drawBox(startX + 1, startY + 1, progress * (width - 2) / 100, height - 2); // 绘制进度条填充
-  u8g2.drawUTF8(40, startY-30, "by:vegds");
+  u8g2.drawUTF8(40, startY-22, "by:vegds");
   u8g2.sendBuffer();
   delay(1000);
 }
@@ -162,17 +160,30 @@ void loop(){
     sprintf(timeString, "%02lu:%02lu:%02lu", hours, minutes, seconds); // 格化时间字符串
     // 在屏幕上显示已开机时间
     u8g2.drawUTF8(0, 15, "启动时间:");
-    u8g2.setFont(u8g2_font_8x13_tn);
+    u8g2.setFont(u8g2_font_8x13_tr);
     u8g2.drawStr(60, 15, timeString);
+    //显示hex颜色
+    u8g2.drawStr(30, 45, hex_color);  
+    //显示ip
     u8g2.setFont(u8g2_font_wqy14_t_gb2312a);
-    u8g2.drawUTF8(0, 30,"状态:");
+    u8g2.drawUTF8(0, 30,"IP:");
+    // 显示灯的状态
+    u8g2.drawUTF8(0, 60,"状态:");
+
+    if (relayState)
+      u8g2.drawUTF8(28,60,"ON");
+    else
+    u8g2.drawUTF8(28,60,"OFF");
+
+    u8g2.drawUTF8(0, 45,"HEX:");
+
+    //判断是否联网
     if(wlan== WL_CONNECTED){
-    u8g2.drawUTF8(39, 30,"正常");
+    u8g2.drawUTF8(20, 30,WiFi.localIP().toString().c_str());
   }else{
-    u8g2.drawUTF8(39, 30, "未连接到WiFi");
-  }
-    u8g2.drawStr(0, 45, hex_color);     
-   } 
-  }while (u8g2.nextPage());
+    u8g2.drawUTF8(20, 30, "未连接到WiFi");
+    }
+  } 
+}while (u8g2.nextPage());
 
 }
