@@ -1,0 +1,331 @@
+# Summary
+
+Date : 2023-10-01 09:29:30
+
+Directory c:\\Users\\Administrator\\Documents\\PlatformIO\\Projects\\230929-111706-nodemcu
+
+Total : 642 files,  499221 codes, 101143 comments, 30508 blanks, all 630872 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| C | 123 | 374,372 | 50,293 | 5,942 | 430,607 |
+| C++ | 498 | 123,552 | 50,698 | 24,368 | 198,618 |
+| Python | 1 | 411 | 128 | 28 | 567 |
+| Markdown | 8 | 390 | 0 | 136 | 526 |
+| JSON | 2 | 330 | 0 | 1 | 331 |
+| Shell Script | 2 | 67 | 15 | 8 | 90 |
+| Properties | 6 | 57 | 0 | 7 | 64 |
+| YAML | 1 | 36 | 0 | 16 | 52 |
+| Ini | 1 | 6 | 9 | 2 | 17 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 642 | 499,221 | 101,143 | 30,508 | 630,872 |
+| . (Files) | 1 | 6 | 9 | 2 | 17 |
+| lib | 640 | 499,070 | 101,117 | 30,484 | 630,671 |
+| lib\\Adafruit_DMA_neopixel_library | 8 | 1,242 | 512 | 137 | 1,891 |
+| lib\\Adafruit_DMA_neopixel_library (Files) | 6 | 800 | 351 | 99 | 1,250 |
+| lib\\Adafruit_DMA_neopixel_library\\examples | 1 | 31 | 33 | 10 | 74 |
+| lib\\Adafruit_DMA_neopixel_library\\examples\\strandtest | 1 | 31 | 33 | 10 | 74 |
+| lib\\Adafruit_DMA_neopixel_library\\extras | 1 | 411 | 128 | 28 | 567 |
+| lib\\Adafruit_NeoPixel | 24 | 4,550 | 1,389 | 692 | 6,631 |
+| lib\\Adafruit_NeoPixel (Files) | 9 | 3,198 | 861 | 418 | 4,477 |
+| lib\\Adafruit_NeoPixel\\examples | 15 | 1,352 | 528 | 274 | 2,154 |
+| lib\\Adafruit_NeoPixel\\examples\\RGBWstrandtest | 1 | 108 | 39 | 31 | 178 |
+| lib\\Adafruit_NeoPixel\\examples\\StrandtestArduinoBLE | 1 | 130 | 75 | 27 | 232 |
+| lib\\Adafruit_NeoPixel\\examples\\StrandtestArduinoBLECallback | 1 | 136 | 76 | 28 | 240 |
+| lib\\Adafruit_NeoPixel\\examples\\StrandtestBLE | 3 | 263 | 69 | 42 | 374 |
+| lib\\Adafruit_NeoPixel\\examples\\StrandtestBLE_nodelay | 3 | 281 | 55 | 44 | 380 |
+| lib\\Adafruit_NeoPixel\\examples\\buttoncycler | 1 | 100 | 50 | 15 | 165 |
+| lib\\Adafruit_NeoPixel\\examples\\simple | 1 | 22 | 16 | 13 | 51 |
+| lib\\Adafruit_NeoPixel\\examples\\simple_new_operator | 1 | 24 | 28 | 16 | 68 |
+| lib\\Adafruit_NeoPixel\\examples\\strandtest | 1 | 67 | 56 | 21 | 144 |
+| lib\\Adafruit_NeoPixel\\examples\\strandtest_nodelay | 1 | 129 | 41 | 17 | 187 |
+| lib\\Adafruit_NeoPixel\\examples\\strandtest_wheel | 1 | 92 | 23 | 20 | 135 |
+| lib\\Blinker | 400 | 72,483 | 24,267 | 20,171 | 116,921 |
+| lib\\Blinker (Files) | 5 | 160 | 0 | 40 | 200 |
+| lib\\Blinker\\examples | 87 | 5,288 | 4,471 | 1,760 | 11,519 |
+| lib\\Blinker\\examples\\Blinker_AT_Firmware | 1 | 10 | 44 | 4 | 58 |
+| lib\\Blinker\\examples\\Blinker_AT_Firmware\\AT_Firmware_WiFi | 1 | 10 | 44 | 4 | 58 |
+| lib\\Blinker\\examples\\Blinker_ArduinoJson | 1 | 43 | 44 | 17 | 104 |
+| lib\\Blinker\\examples\\Blinker_ArduinoJson\\ArduinoJson_WiFi | 1 | 43 | 44 | 17 | 104 |
+| lib\\Blinker\\examples\\Blinker_Bridge | 1 | 29 | 45 | 14 | 88 |
+| lib\\Blinker\\examples\\Blinker_Bridge\\Bridge_WiFi | 1 | 29 | 45 | 14 | 88 |
+| lib\\Blinker\\examples\\Blinker_Cloud | 7 | 225 | 315 | 90 | 630 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_CLOUDDATA | 1 | 32 | 44 | 13 | 89 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_CLOUDDATA\\CLOUDDATA_WiFi | 1 | 32 | 44 | 13 | 89 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_Coordinate | 1 | 34 | 44 | 14 | 92 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_Coordinate\\Coordinate_WiFi | 1 | 34 | 44 | 14 | 92 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_DataStorage | 3 | 92 | 133 | 36 | 261 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_DataStorage\\Blinker_ConfigData | 1 | 35 | 45 | 13 | 93 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_DataStorage\\Blinker_TextData | 1 | 25 | 44 | 11 | 80 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_DataStorage\\Blinker_TimeSlotData | 1 | 32 | 44 | 12 | 88 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_GPSData | 1 | 33 | 50 | 13 | 96 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_GPSData\\GPSData_WiFi | 1 | 33 | 50 | 13 | 96 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_LOG | 1 | 34 | 44 | 14 | 92 |
+| lib\\Blinker\\examples\\Blinker_Cloud\\Blinker_LOG\\LOG_WiFi | 1 | 34 | 44 | 14 | 92 |
+| lib\\Blinker\\examples\\Blinker_ESP32_CAM | 2 | 238 | 65 | 43 | 346 |
+| lib\\Blinker\\examples\\Blinker_Hello | 4 | 136 | 194 | 49 | 379 |
+| lib\\Blinker\\examples\\Blinker_Hello\\Blinker_HTTP | 1 | 39 | 50 | 14 | 103 |
+| lib\\Blinker\\examples\\Blinker_Hello\\Hello_BLE | 1 | 30 | 44 | 11 | 85 |
+| lib\\Blinker\\examples\\Blinker_Hello\\Hello_WiFi | 1 | 33 | 50 | 12 | 95 |
+| lib\\Blinker\\examples\\Blinker_Hello\\Hello_WiFi_Without_SSL | 1 | 34 | 50 | 12 | 96 |
+| lib\\Blinker\\examples\\Blinker_MQTT | 1 | 38 | 50 | 13 | 101 |
+| lib\\Blinker\\examples\\Blinker_MQTT\\MQTT_PUB | 1 | 38 | 50 | 13 | 101 |
+| lib\\Blinker\\examples\\Blinker_PRO | 10 | 710 | 852 | 229 | 1,791 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_AIR202 | 1 | 57 | 87 | 19 | 163 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_Change_Server | 1 | 74 | 76 | 24 | 174 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_ESP | 1 | 72 | 76 | 22 | 170 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_ESP_APCONFIG | 1 | 73 | 86 | 23 | 182 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_Event | 3 | 216 | 258 | 69 | 543 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_Event\\Event_Error | 1 | 72 | 86 | 23 | 181 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_Event\\Event_Message | 1 | 72 | 86 | 23 | 181 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_Event\\Event_Warning | 1 | 72 | 86 | 23 | 181 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_OTA | 1 | 74 | 85 | 26 | 185 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_OTA\\OTA_PRO | 1 | 74 | 85 | 26 | 185 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_SIM7020 | 1 | 57 | 87 | 19 | 163 |
+| lib\\Blinker\\examples\\Blinker_PRO\\Blinker_PRO_Wlan_Config | 1 | 87 | 97 | 27 | 211 |
+| lib\\Blinker\\examples\\Blinker_PRO_Device | 1 | 94 | 86 | 29 | 209 |
+| lib\\Blinker\\examples\\Blinker_PRO_Device\\Blinker_PRO_Plug | 1 | 94 | 86 | 29 | 209 |
+| lib\\Blinker\\examples\\Blinker_RT_DATA | 1 | 33 | 44 | 12 | 89 |
+| lib\\Blinker\\examples\\Blinker_Sensor | 3 | 151 | 142 | 67 | 360 |
+| lib\\Blinker\\examples\\Blinker_Sensor\\Blinker_BMP180 | 1 | 42 | 46 | 16 | 104 |
+| lib\\Blinker\\examples\\Blinker_Sensor\\Blinker_BMP180\\BMP180_WiFi | 1 | 42 | 46 | 16 | 104 |
+| lib\\Blinker\\examples\\Blinker_Sensor\\Blinker_DHT | 2 | 109 | 96 | 51 | 256 |
+| lib\\Blinker\\examples\\Blinker_Sensor\\Blinker_DHT\\DHT_BLE | 1 | 53 | 48 | 25 | 126 |
+| lib\\Blinker\\examples\\Blinker_Sensor\\Blinker_DHT\\DHT_WiFi | 1 | 56 | 48 | 26 | 130 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant | 18 | 2,127 | 894 | 616 | 3,637 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie | 6 | 771 | 287 | 206 | 1,264 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie\\AliGenie_AIRCONDITION | 1 | 145 | 50 | 44 | 239 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie\\AliGenie_FAN | 1 | 126 | 47 | 38 | 211 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie\\AliGenie_LIGHT | 1 | 314 | 58 | 67 | 439 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie\\AliGenie_MULTI_OUTLET | 1 | 73 | 44 | 22 | 139 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie\\AliGenie_OUTLET | 1 | 66 | 44 | 21 | 131 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_AliGenie\\AliGenie_SENSOR | 1 | 47 | 44 | 14 | 105 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS | 6 | 693 | 320 | 218 | 1,231 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS\\DuerOS_AIRCONDITION | 1 | 142 | 62 | 47 | 251 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS\\DuerOS_FAN | 1 | 121 | 63 | 41 | 225 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS\\DuerOS_LIGHT | 1 | 209 | 60 | 64 | 333 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS\\DuerOS_MULTI_OUTLET | 1 | 51 | 44 | 20 | 115 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS\\DuerOS_OUTLET | 1 | 91 | 47 | 32 | 170 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_DuerOS\\DuerOS_SENSOR | 1 | 79 | 44 | 14 | 137 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT | 6 | 663 | 287 | 192 | 1,142 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT\\MIOT_AIRCONDITION | 1 | 158 | 55 | 43 | 256 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT\\MIOT_FAN | 1 | 117 | 47 | 36 | 200 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT\\MIOT_LIGHT | 1 | 200 | 53 | 56 | 309 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT\\MIOT_MULTI_OUTLET | 1 | 73 | 44 | 22 | 139 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT\\MIOT_OUTLET | 1 | 66 | 44 | 21 | 131 |
+| lib\\Blinker\\examples\\Blinker_Voice_Assistant\\Blinker_MIOT\\MIOT_SENSOR | 1 | 49 | 44 | 14 | 107 |
+| lib\\Blinker\\examples\\Blinker_Weathers | 2 | 72 | 88 | 27 | 187 |
+| lib\\Blinker\\examples\\Blinker_Weathers\\Blinker_Air | 1 | 33 | 44 | 13 | 90 |
+| lib\\Blinker\\examples\\Blinker_Weathers\\Blinker_Air\\Air_WiFi | 1 | 33 | 44 | 13 | 90 |
+| lib\\Blinker\\examples\\Blinker_Weathers\\Blinker_Weather | 1 | 39 | 44 | 14 | 97 |
+| lib\\Blinker\\examples\\Blinker_Weathers\\Blinker_Weather\\Weather_WiFi | 1 | 39 | 44 | 14 | 97 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config | 4 | 151 | 194 | 56 | 401 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_APCONFIG | 1 | 37 | 48 | 14 | 99 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_APCONFIG\\APCONFIG_WiFi | 1 | 37 | 48 | 14 | 99 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_APCONFIG_V2 | 1 | 37 | 48 | 13 | 98 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_ESPTOUCH | 1 | 37 | 48 | 14 | 99 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_ESPTOUCH\\ESPTOUCH_WiFi | 1 | 37 | 48 | 14 | 99 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_Multi_WiFi | 1 | 40 | 50 | 15 | 105 |
+| lib\\Blinker\\examples\\Blinker_WiFi_Config\\Blinker_Multi_WiFi\\Multi_WiFi | 1 | 40 | 50 | 15 | 105 |
+| lib\\Blinker\\examples\\Blinker_Widgets | 31 | 1,231 | 1,414 | 494 | 3,139 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_AUTO | 2 | 150 | 125 | 50 | 325 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_AUTO\\AUTO_Pro | 1 | 86 | 76 | 28 | 190 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_AUTO\\AUTO_WiFi | 1 | 64 | 49 | 22 | 135 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Button | 2 | 147 | 97 | 43 | 287 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Button\\Button_BLE | 1 | 72 | 49 | 21 | 142 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Button\\Button_WiFi | 1 | 75 | 48 | 22 | 145 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Heartbeat | 2 | 97 | 88 | 39 | 224 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Heartbeat\\Heartbeat_BLE | 1 | 44 | 44 | 18 | 106 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Heartbeat\\Heartbeat_WiFi | 1 | 53 | 44 | 21 | 118 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Image | 1 | 40 | 44 | 15 | 99 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Image\\Image_WiFi | 1 | 40 | 44 | 15 | 99 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Joystick | 2 | 63 | 88 | 31 | 182 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Joystick\\Joystick_BLE | 1 | 30 | 44 | 15 | 89 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Joystick\\Joystick_WiFi | 1 | 33 | 44 | 16 | 93 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Notify | 2 | 51 | 88 | 24 | 163 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Notify\\Notify_BLE | 1 | 24 | 44 | 11 | 79 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Notify\\Notify_WiFi | 1 | 27 | 44 | 13 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Number | 2 | 61 | 88 | 31 | 180 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Number\\Number_BLE | 1 | 29 | 44 | 15 | 88 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Number\\Number_WiFi | 1 | 32 | 44 | 16 | 92 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_PUSH | 1 | 28 | 44 | 12 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_PUSH\\PUSH_WiFi | 1 | 28 | 44 | 12 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Print | 2 | 47 | 88 | 21 | 156 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Print\\Print_BLE | 1 | 22 | 44 | 10 | 76 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Print\\Print_WiFi | 1 | 25 | 44 | 11 | 80 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_RGB | 2 | 73 | 88 | 33 | 194 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_RGB\\RGB_BLE | 1 | 35 | 44 | 16 | 95 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_RGB\\RGB_WiFi | 1 | 38 | 44 | 17 | 99 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_SMS | 1 | 28 | 44 | 12 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_SMS\\SMS_WiFi | 1 | 28 | 44 | 12 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Slider | 2 | 67 | 88 | 33 | 188 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Slider\\Slider_BLE | 1 | 32 | 44 | 16 | 92 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Slider\\Slider_WiFi | 1 | 35 | 44 | 17 | 96 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Summary | 1 | 53 | 44 | 21 | 118 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Summary\\Summary_WiFi | 1 | 53 | 44 | 21 | 118 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Switch | 2 | 57 | 88 | 21 | 166 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Switch\\Switch_BLE | 1 | 27 | 44 | 10 | 81 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Switch\\Switch_WiFi | 1 | 30 | 44 | 11 | 85 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_TEXT | 2 | 55 | 88 | 31 | 174 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_TEXT\\TEXT_BLE | 1 | 26 | 44 | 15 | 85 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_TEXT\\TEXT_WiFi | 1 | 29 | 44 | 16 | 89 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Tab | 1 | 71 | 44 | 19 | 134 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Tab\\Tab_WiFi | 1 | 71 | 44 | 19 | 134 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Time | 1 | 36 | 44 | 15 | 95 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_Time\\Time_WiFi | 1 | 36 | 44 | 15 | 95 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_WECHAT | 1 | 28 | 44 | 12 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_WECHAT\\WECHAT_WiFi | 1 | 28 | 44 | 12 | 84 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_WS2812 | 2 | 79 | 92 | 31 | 202 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_WS2812\\WS2812_BLE | 1 | 38 | 46 | 15 | 99 |
+| lib\\Blinker\\examples\\Blinker_Widgets\\Blinker_WS2812\\WS2812_WiFi | 1 | 41 | 46 | 16 | 103 |
+| lib\\Blinker\\src | 305 | 66,666 | 19,781 | 18,363 | 104,810 |
+| lib\\Blinker\\src (Files) | 25 | 2,557 | 1,110 | 761 | 4,428 |
+| lib\\Blinker\\src\\Adapters | 25 | 23,461 | 8,536 | 6,861 | 38,858 |
+| lib\\Blinker\\src\\Blinker | 17 | 14,498 | 3,748 | 3,847 | 22,093 |
+| lib\\Blinker\\src\\Functions | 31 | 8,251 | 3,356 | 2,543 | 14,150 |
+| lib\\Blinker\\src\\Server | 1 | 20 | 0 | 4 | 24 |
+| lib\\Blinker\\src\\modules | 206 | 17,879 | 3,031 | 4,347 | 25,257 |
+| lib\\Blinker\\src\\modules\\ArduinoJson | 165 | 9,012 | 1,064 | 2,474 | 12,550 |
+| lib\\Blinker\\src\\modules\\ArduinoJson (Files) | 2 | 71 | 8 | 20 | 99 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson | 163 | 8,941 | 1,056 | 2,454 | 12,451 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson (Files) | 4 | 205 | 41 | 53 | 299 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Array | 7 | 525 | 71 | 149 | 745 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Collection | 2 | 250 | 16 | 62 | 328 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Deserialization | 17 | 563 | 72 | 183 | 818 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Deserialization (Files) | 10 | 381 | 50 | 119 | 550 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Deserialization\\Readers | 7 | 182 | 22 | 64 | 268 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Document | 4 | 416 | 70 | 118 | 604 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Json | 8 | 1,016 | 111 | 227 | 1,354 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Memory | 4 | 234 | 36 | 73 | 343 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Misc | 3 | 75 | 13 | 30 | 118 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\MsgPack | 4 | 704 | 40 | 141 | 885 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Numbers | 9 | 620 | 53 | 123 | 796 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Object | 7 | 603 | 95 | 167 | 865 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Operators | 5 | 266 | 30 | 56 | 352 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Polyfills | 38 | 701 | 139 | 263 | 1,103 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Polyfills (Files) | 14 | 345 | 47 | 104 | 496 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Polyfills\\gsl | 1 | 22 | 3 | 9 | 34 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Polyfills\\mpl | 1 | 15 | 4 | 8 | 27 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Polyfills\\type_traits | 22 | 319 | 85 | 142 | 546 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Serialization | 14 | 365 | 49 | 136 | 550 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Serialization (Files) | 8 | 220 | 31 | 82 | 333 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Serialization\\Writers | 6 | 145 | 18 | 54 | 217 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\StringStorage | 3 | 95 | 13 | 33 | 141 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Strings | 17 | 643 | 54 | 234 | 931 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Strings (Files) | 11 | 450 | 36 | 153 | 639 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Strings\\Adapters | 6 | 193 | 18 | 81 | 292 |
+| lib\\Blinker\\src\\modules\\ArduinoJson\\ArduinoJson\\Variant | 17 | 1,660 | 153 | 406 | 2,219 |
+| lib\\Blinker\\src\\modules\\AsyncTCP | 2 | 1,205 | 122 | 180 | 1,507 |
+| lib\\Blinker\\src\\modules\\ESPAsyncTCP | 11 | 2,595 | 326 | 455 | 3,376 |
+| lib\\Blinker\\src\\modules\\TaskScheduler | 2 | 772 | 327 | 233 | 1,332 |
+| lib\\Blinker\\src\\modules\\WebSockets | 16 | 3,058 | 767 | 653 | 4,478 |
+| lib\\Blinker\\src\\modules\\WebSockets (Files) | 10 | 2,702 | 694 | 577 | 3,973 |
+| lib\\Blinker\\src\\modules\\WebSockets\\libb64 | 4 | 212 | 26 | 42 | 280 |
+| lib\\Blinker\\src\\modules\\WebSockets\\libsha1 | 2 | 144 | 47 | 34 | 225 |
+| lib\\Blinker\\src\\modules\\base64 | 5 | 154 | 81 | 56 | 291 |
+| lib\\Blinker\\src\\modules\\base64 (Files) | 4 | 129 | 66 | 35 | 230 |
+| lib\\Blinker\\src\\modules\\base64\\examples | 1 | 25 | 15 | 21 | 61 |
+| lib\\Blinker\\src\\modules\\base64\\examples\\base64 | 1 | 25 | 15 | 21 | 61 |
+| lib\\Blinker\\src\\modules\\mqtt | 5 | 1,083 | 344 | 296 | 1,723 |
+| lib\\Blinker\\test | 3 | 369 | 15 | 8 | 392 |
+| lib\\Blinker\\test (Files) | 2 | 67 | 15 | 8 | 90 |
+| lib\\Blinker\\test\\package | 1 | 302 | 0 | 0 | 302 |
+| lib\\Time | 17 | 1,289 | 297 | 291 | 1,877 |
+| lib\\Time (Files) | 2 | 126 | 0 | 41 | 167 |
+| lib\\Time\\examples | 11 | 773 | 208 | 158 | 1,139 |
+| lib\\Time\\examples\\TimeArduinoDue | 1 | 43 | 20 | 9 | 72 |
+| lib\\Time\\examples\\TimeGPS | 1 | 53 | 23 | 12 | 88 |
+| lib\\Time\\examples\\TimeNTP | 1 | 94 | 25 | 17 | 136 |
+| lib\\Time\\examples\\TimeNTP_ENC28J60 | 1 | 100 | 39 | 30 | 169 |
+| lib\\Time\\examples\\TimeNTP_ESP8266WiFi | 1 | 110 | 27 | 20 | 157 |
+| lib\\Time\\examples\\TimeRTC | 1 | 42 | 7 | 7 | 56 |
+| lib\\Time\\examples\\TimeRTCLog | 1 | 84 | 15 | 11 | 110 |
+| lib\\Time\\examples\\TimeRTCSet | 1 | 55 | 11 | 15 | 81 |
+| lib\\Time\\examples\\TimeSerial | 1 | 57 | 13 | 12 | 82 |
+| lib\\Time\\examples\\TimeSerialDateStrings | 1 | 77 | 19 | 13 | 109 |
+| lib\\Time\\examples\\TimeTeensy3 | 1 | 58 | 9 | 12 | 79 |
+| lib\\Time\\src | 4 | 390 | 89 | 92 | 571 |
+| lib\\U8g2 | 191 | 419,506 | 74,652 | 9,193 | 503,351 |
+| lib\\U8g2 (Files) | 2 | 16 | 0 | 8 | 24 |
+| lib\\U8g2\\examples | 64 | 7,040 | 23,100 | 2,384 | 32,524 |
+| lib\\U8g2\\examples\\full_buffer | 12 | 1,070 | 4,524 | 357 | 5,951 |
+| lib\\U8g2\\examples\\full_buffer\\FPS | 1 | 141 | 499 | 40 | 680 |
+| lib\\U8g2\\examples\\full_buffer\\FontUsage | 1 | 159 | 402 | 49 | 610 |
+| lib\\U8g2\\examples\\full_buffer\\GraphicsTest | 1 | 193 | 350 | 37 | 580 |
+| lib\\U8g2\\examples\\full_buffer\\HelloWorld | 1 | 18 | 347 | 11 | 376 |
+| lib\\U8g2\\examples\\full_buffer\\IconMenu | 1 | 140 | 364 | 32 | 536 |
+| lib\\U8g2\\examples\\full_buffer\\PrintUTF8 | 1 | 23 | 349 | 16 | 388 |
+| lib\\U8g2\\examples\\full_buffer\\ScreenShot | 1 | 20 | 352 | 13 | 385 |
+| lib\\U8g2\\examples\\full_buffer\\SelectionList | 1 | 43 | 355 | 23 | 421 |
+| lib\\U8g2\\examples\\full_buffer\\Shennong | 1 | 104 | 429 | 47 | 580 |
+| lib\\U8g2\\examples\\full_buffer\\U8g2Logo | 1 | 70 | 349 | 24 | 443 |
+| lib\\U8g2\\examples\\full_buffer\\UpdateArea | 1 | 43 | 353 | 23 | 419 |
+| lib\\U8g2\\examples\\full_buffer\\Weather | 1 | 116 | 375 | 42 | 533 |
+| lib\\U8g2\\examples\\games | 2 | 2,407 | 1,202 | 549 | 4,158 |
+| lib\\U8g2\\examples\\games\\LittleRookChess | 1 | 1,351 | 635 | 362 | 2,348 |
+| lib\\U8g2\\examples\\games\\SpaceTrash | 1 | 1,056 | 567 | 187 | 1,810 |
+| lib\\U8g2\\examples\\mui | 9 | 1,127 | 3,279 | 454 | 4,860 |
+| lib\\U8g2\\examples\\mui\\MUIBlink | 1 | 206 | 371 | 73 | 650 |
+| lib\\U8g2\\examples\\mui\\MUICountDown | 1 | 73 | 383 | 43 | 499 |
+| lib\\U8g2\\examples\\mui\\MUIInput2BtnBounce2 | 1 | 133 | 359 | 50 | 542 |
+| lib\\U8g2\\examples\\mui\\MUIInput3BtnBounce2 | 1 | 143 | 359 | 51 | 553 |
+| lib\\U8g2\\examples\\mui\\MUIInput3BtnWithU8g2 | 1 | 124 | 365 | 51 | 540 |
+| lib\\U8g2\\examples\\mui\\MUIInputSimpleRotary | 1 | 138 | 359 | 50 | 547 |
+| lib\\U8g2\\examples\\mui\\MUIInputVersatileRotaryEncoder | 1 | 153 | 363 | 58 | 574 |
+| lib\\U8g2\\examples\\mui\\MUIMinimal | 1 | 62 | 353 | 32 | 447 |
+| lib\\U8g2\\examples\\mui\\MUIStopwatch | 1 | 95 | 367 | 46 | 508 |
+| lib\\U8g2\\examples\\page_buffer | 34 | 2,091 | 12,320 | 905 | 15,316 |
+| lib\\U8g2\\examples\\page_buffer\\A2Printer | 1 | 89 | 47 | 32 | 168 |
+| lib\\U8g2\\examples\\page_buffer\\ButtonEmoticon | 1 | 47 | 363 | 22 | 432 |
+| lib\\U8g2\\examples\\page_buffer\\Chinese | 1 | 24 | 350 | 13 | 387 |
+| lib\\U8g2\\examples\\page_buffer\\ClipWindow | 1 | 27 | 365 | 25 | 417 |
+| lib\\U8g2\\examples\\page_buffer\\Clock | 1 | 27 | 366 | 20 | 413 |
+| lib\\U8g2\\examples\\page_buffer\\ContrastTest | 1 | 50 | 355 | 23 | 428 |
+| lib\\U8g2\\examples\\page_buffer\\Devanagari | 1 | 54 | 389 | 27 | 470 |
+| lib\\U8g2\\examples\\page_buffer\\DirectAccess | 1 | 78 | 373 | 35 | 486 |
+| lib\\U8g2\\examples\\page_buffer\\DrawLog | 1 | 41 | 366 | 28 | 435 |
+| lib\\U8g2\\examples\\page_buffer\\ExtUTF8 | 1 | 29 | 357 | 21 | 407 |
+| lib\\U8g2\\examples\\page_buffer\\FPS | 1 | 136 | 598 | 44 | 778 |
+| lib\\U8g2\\examples\\page_buffer\\FlipMode | 1 | 54 | 342 | 24 | 420 |
+| lib\\U8g2\\examples\\page_buffer\\GraphicsTest | 1 | 221 | 357 | 47 | 625 |
+| lib\\U8g2\\examples\\page_buffer\\HelloWorld | 1 | 18 | 382 | 20 | 420 |
+| lib\\U8g2\\examples\\page_buffer\\IconMenu | 1 | 153 | 364 | 33 | 550 |
+| lib\\U8g2\\examples\\page_buffer\\Japanese | 1 | 24 | 348 | 13 | 385 |
+| lib\\U8g2\\examples\\page_buffer\\Korean | 1 | 24 | 348 | 13 | 385 |
+| lib\\U8g2\\examples\\page_buffer\\LoadFromSD | 1 | 153 | 386 | 30 | 569 |
+| lib\\U8g2\\examples\\page_buffer\\MechCount | 1 | 97 | 381 | 41 | 519 |
+| lib\\U8g2\\examples\\page_buffer\\PowerSaveTest | 1 | 32 | 342 | 14 | 388 |
+| lib\\U8g2\\examples\\page_buffer\\PrintHelloWorld | 1 | 20 | 348 | 13 | 381 |
+| lib\\U8g2\\examples\\page_buffer\\PrintProgmem | 1 | 32 | 351 | 19 | 402 |
+| lib\\U8g2\\examples\\page_buffer\\PrintUTF8 | 1 | 24 | 350 | 13 | 387 |
+| lib\\U8g2\\examples\\page_buffer\\ScrollingText | 1 | 36 | 365 | 31 | 432 |
+| lib\\U8g2\\examples\\page_buffer\\SelectionList | 1 | 43 | 350 | 25 | 418 |
+| lib\\U8g2\\examples\\page_buffer\\Serial | 1 | 28 | 367 | 23 | 418 |
+| lib\\U8g2\\examples\\page_buffer\\Shennong | 1 | 104 | 428 | 49 | 581 |
+| lib\\U8g2\\examples\\page_buffer\\StateBufferLoop | 1 | 36 | 379 | 29 | 444 |
+| lib\\U8g2\\examples\\page_buffer\\Terminal | 1 | 34 | 365 | 26 | 425 |
+| lib\\U8g2\\examples\\page_buffer\\U8g2Logo | 1 | 73 | 364 | 34 | 471 |
+| lib\\U8g2\\examples\\page_buffer\\UpdatePartly | 1 | 43 | 373 | 34 | 450 |
+| lib\\U8g2\\examples\\page_buffer\\Weather | 1 | 110 | 376 | 35 | 521 |
+| lib\\U8g2\\examples\\page_buffer\\XBM | 1 | 77 | 364 | 23 | 464 |
+| lib\\U8g2\\examples\\page_buffer\\XORTest | 1 | 53 | 361 | 26 | 440 |
+| lib\\U8g2\\examples\\u8x8 | 7 | 345 | 1,775 | 119 | 2,239 |
+| lib\\U8g2\\examples\\u8x8\\16x16Font | 1 | 18 | 290 | 15 | 323 |
+| lib\\U8g2\\examples\\u8x8\\ArduboyTest | 1 | 86 | 38 | 17 | 141 |
+| lib\\U8g2\\examples\\u8x8\\FlipMode | 1 | 27 | 285 | 14 | 326 |
+| lib\\U8g2\\examples\\u8x8\\GraphicsTest | 1 | 140 | 292 | 30 | 462 |
+| lib\\U8g2\\examples\\u8x8\\HelloWorld | 1 | 20 | 291 | 13 | 324 |
+| lib\\U8g2\\examples\\u8x8\\MessageBox | 1 | 27 | 287 | 11 | 325 |
+| lib\\U8g2\\examples\\u8x8\\Terminal | 1 | 27 | 292 | 19 | 338 |
+| lib\\U8g2\\src | 125 | 412,450 | 51,552 | 6,801 | 470,803 |
+| lib\\U8g2\\src (Files) | 5 | 34,233 | 590 | 538 | 35,361 |
+| lib\\U8g2\\src\\clib | 120 | 378,217 | 50,962 | 6,263 | 435,442 |
+| src | 1 | 145 | 17 | 22 | 184 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
