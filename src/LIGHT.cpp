@@ -13,12 +13,9 @@ char auth[] = "fe2d715bf9a0";
 unsigned long startTime;
 WiFiManager wifiManager;
 uint8_t progress = 0; // 进度条的当前进度
-const int buttonPin = D5;
 const int relayPin = D6;
 
-bool relayState = LOW;
-bool lastButtonState = HIGH;
-bool buttonState = HIGH;
+bool relayState = HIGH;
 
 //* NeoPixel配置
 #define PIN  15              //  DIN PIN (GPIO15, D8)
@@ -34,6 +31,9 @@ BlinkerButton mode("power");
 int LED_R = 0, LED_G = 0, LED_B = 0;  // RGB
 bool WIFI_Status;
 char* hex_color="#000000";
+int currentPage = 0;
+unsigned long previousMillis = 0;
+const long interval = 5000; // 切换页面的间隔时间，单位为毫秒
     
 //初始化ws2812
 void initws2812(){
@@ -92,7 +92,8 @@ void drawProgressBar(int progress) {
   u8g2.drawFrame(startX, startY, width, height); // 绘制进度条边框
   u8g2.drawUTF8(40, startY+22, "正在启动");
   u8g2.drawBox(startX + 1, startY + 1, progress * (width - 2) / 100, height - 2); // 绘制进度条填充
-  u8g2.drawUTF8(40, startY-22, "by:vegds");
+  u8g2.drawUTF8(15, startY-12, "by:光与影太遥远");
+  u8g2.drawUTF8(30, startY+33, "github:vegds");
   u8g2.sendBuffer();
   delay(1000);
 }
@@ -109,13 +110,13 @@ void mode_callback(const String& state)
     Serial.println(relayState);
 }
 
+
 void setup() {
   Serial.begin(115200); // 初始化串口
   initws2812();
   startTime = millis(); // 记录开机时间
   u8g2.begin();
   u8g2.enableUTF8Print(); // enable UTF8 support for the Arduino print() function
-  pinMode(buttonPin, INPUT);
 
   // 设置继电器引脚为输出模式
   pinMode(relayPin, OUTPUT);
@@ -125,7 +126,7 @@ void setup() {
 #if defined(BLINKER_PRINT)
   BLINKER_DEBUG.stream(BLINKER_PRINT);
 #endif
-  u8g2.setFont(u8g2_font_wqy14_t_gb2312a); //此处视情况而定（例如程序大小），范例代码使用的是gb2312，即支持全部中文字体的字库。
+  u8g2.setFont(u8g2_font_wqy14_t_gb2312a);
   connect();//连接WiFi
   Blinker.begin(auth,WiFi.SSID().c_str(),WiFi.psk().c_str());//初始化blinker
   mode.attach(mode_callback);
@@ -134,9 +135,10 @@ void setup() {
 }
 
 
+
 void loop(){
   Blinker.run();
-  uint8_t wlan=WiFi.status();
+  uint8_t wlan=WiFi.status(); 
   do {
     if(progress<100){ 
       if(wlan!=WL_CONNECTED)   
@@ -151,6 +153,7 @@ void loop(){
       u8g2.clearDisplay();//清除屏幕
       progress=104;
     }else{
+      u8g2.clearBuffer();
     unsigned long currentTime = millis();
     unsigned long uptime = currentTime - startTime; // 计算已开机时间
     unsigned long hours = uptime / 3600000;
@@ -171,14 +174,14 @@ void loop(){
     u8g2.drawUTF8(0, 60,"状态:");
 
     if (relayState)
-      u8g2.drawUTF8(28,60,"ON");
+      u8g2.drawStr(33,60,"ON ");
     else
-    u8g2.drawUTF8(28,60,"OFF");
+    u8g2.drawStr(33,60,"OFF");
 
     u8g2.drawUTF8(0, 45,"HEX:");
 
     //判断是否联网
-    if(wlan== WL_CONNECTED){
+    if(Blinker.connected()){
     u8g2.drawUTF8(20, 30,WiFi.localIP().toString().c_str());
   }else{
     u8g2.drawUTF8(20, 30, "未连接到WiFi");
