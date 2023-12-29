@@ -19,8 +19,8 @@ const int relayPin = D6;
 bool relayState = HIGH;
 
 //* NeoPixel配置
-#define PIN 15       //  DIN PIN (GPIO15, D8)
-#define NUMPIXELS 17// Number of you led
+#define PIN 15      
+#define NUMPIXELS 17
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/U8X8_PIN_NONE);
@@ -139,9 +139,6 @@ uint32_t Wheel(byte WheelPos)
   return pixels.Color(WheelPos * 3, 255 - WheelPos * 3, 0);
 }
 
-void initup(){
-
-}
 void setup()
 {
   Serial.begin(115200); // 初始化串口
@@ -183,14 +180,6 @@ void loop()
   Blinker.run();
   bool isrun=false;
   uint8_t wlan = WiFi.status();
-  unsigned long currentMillis = millis();
-
-  // 检查时间间隔是否达到
-  if (currentMillis - previousMillis >= 1000&&!change) {
-    rainbow();
-    previousMillis = currentMillis;
-    }
-
   if (progress < 100)
     {
       if (wlan != WL_CONNECTED){
@@ -220,15 +209,11 @@ void loop()
     do
   {
       u8g2.clearBuffer();
-      u8g2.drawUTF8(0, 15, "请连接到vegds");
-      u8g2.drawUTF8(0, 32, "密码为12345678");
-      u8g2.drawUTF8(0, 47, "配网成功后自动设置");
       u8g2.sendBuffer();
       page=4;
       break;
   } while (u8g2.nextPage());
     break;
-
     case 4:
     if(!isrun){
     wifiManager1.setSaveConfigCallback(saveConfigCallback);
@@ -240,38 +225,7 @@ void loop()
     case 2:
     do{
       u8g2.clearBuffer();
-      char* timeStr = new char[7]; // 6 characters for hhmmss + 1 for null terminato
-      time_t time = Blinker.runTime();
-      sprintf(timeStr, "%02d:%02d:%02d", hour(time), minute(time), second(time));
-      u8g2.drawUTF8(0, 15, "启动时间:");
-      u8g2.setFont(u8g2_font_8x13_tr);
-      u8g2.drawStr(60, 15, timeStr);
-      // 显示hex颜色
-      u8g2.drawStr(30, 45, hex_color);
-      // 显示ip
-      u8g2.setFont(u8g2_font_wqy14_t_gb2312a);
-      u8g2.drawUTF8(0, 30, "IP:");
-      // 显示灯的状态
-      u8g2.drawUTF8(0, 60, "状态:");
-
-      u8g2.drawUTF8(60, 60, "ver:12.3.7");
-      if (relayState)
-        u8g2.drawStr(33, 60, "ON");
-      else
-        u8g2.drawStr(33, 60, "OFF");
-
-      u8g2.drawUTF8(0, 45, "HEX:");
-
-      // 判断是否联网
-      if (Blinker.connected())
-      {
-        u8g2.drawUTF8(20, 30, WiFi.localIP().toString().c_str());
-      }
-      else
-      {
-        u8g2.drawUTF8(20, 30, "未连接到WiFi");
-      }
-
+     
     }while (u8g2.nextPage());
     delay(1000);
   }
