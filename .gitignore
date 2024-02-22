@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+.pio/build/nodemcu/.sconsign311.dblite

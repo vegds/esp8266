@@ -1,0 +1,15 @@
+"filename", "language", "C++", "comment", "blank", "total"
+"c:\Users\vegds\Desktop\esp8266\src\Application.cpp", "C++", 18, 11, 2, 31
+"c:\Users\vegds\Desktop\esp8266\src\Application.h", "C++", 10, 10, 1, 21
+"c:\Users\vegds\Desktop\esp8266\src\Display.cpp", "C++", 13, 15, 1, 29
+"c:\Users\vegds\Desktop\esp8266\src\Display.h", "C++", 31, 13, 0, 44
+"c:\Users\vegds\Desktop\esp8266\src\Environment.cpp", "C++", 54, 22, 7, 83
+"c:\Users\vegds\Desktop\esp8266\src\Environment.h", "C++", 13, 0, 3, 16
+"c:\Users\vegds\Desktop\esp8266\src\Light.cpp", "C++", 27, 16, 5, 48
+"c:\Users\vegds\Desktop\esp8266\src\Light.h", "C++", 11, 11, 2, 24
+"c:\Users\vegds\Desktop\esp8266\src\Storage.cpp", "C++", 37, 25, 2, 64
+"c:\Users\vegds\Desktop\esp8266\src\Storage.h", "C++", 9, 0, 1, 10
+"c:\Users\vegds\Desktop\esp8266\src\System.cpp", "C++", 202, 23, 32, 257
+"c:\Users\vegds\Desktop\esp8266\src\Tool.cpp", "C++", 1, 10, 1, 12
+"c:\Users\vegds\Desktop\esp8266\src\Tool.h", "C++", 1, 0, 2, 3
+"Total", "-", 427, 156, 59, 642

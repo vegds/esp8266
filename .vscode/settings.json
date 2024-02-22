@@ -1,0 +1,27 @@
+{
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
+    "editor.formatOnType": true,
+    "C_Cpp.debugShortcut": false,
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "ranges": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "functional": "cpp",
+        "variant": "cpp",
+        "ctime": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.suggest.preview": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.fontLigatures": true
+}
